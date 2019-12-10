@@ -1,0 +1,15 @@
+{
+    "project_name": "project_name",
+    "repo_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "module_name": "src",
+    "author_name": "Your name (or your organization/company/team)",
+    "author_email": "email@address.com",
+    "description": "A short description of this project.",
+    "version": "0.1.0",
+    "license": ["MIT", "Proprietary"],
+    "package_domain": "com.{{cookiecutter.author_name.lower().replace(' ', '') }}.{{ cookiecutter.module_name}}",
+    "python_version": ["3.7", "3.6", "3.8"],
+    "conda_path": "~/miniconda3/bin/conda",
+    "kivy_version": ["master"],
+    "iphone_certificate": "{{ cookiecutter.author_name }} (XXXXXXXXXX)"
+}

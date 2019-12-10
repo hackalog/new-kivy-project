@@ -1,0 +1,16 @@
+name: kasuku3
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python={{ cookiecutter.python_version }}
+  - cython=0.29.10
+  - pip>=18.1
+  - nose
+  - pip:
+    - git+https://github.com/kivy/buildozer.git
+    - git+https://github.com/kivy/plyer.git
+    - git+https://github.com/kivy/kivy.git
+    - pbxproj==2.5.1
+    - Pillow>=6.1.0
+    - requests>=2.13
