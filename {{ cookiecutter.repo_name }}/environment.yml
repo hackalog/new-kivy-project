@@ -1,4 +1,4 @@
-name: kasuku3
+name: {{ cookiecutter.repo_name }}
 channels:
   - default
   - conda-forge
